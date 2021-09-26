@@ -1,0 +1,15 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 592058178071-lks40nkp8t8sqaq8rpk9hgleench0sv4.apps.googleusercontent.com
+            client-secret: v3lnGzJ8ACMSiyp1r_vY4dfI
+            scope: profile
+  datasource:
+    url: jdbc:mysql://139.162.141.133:3306/Klassifier
+    username: intern0705
+    password: N3v?ta6a_fne126!*
+server:
+    port: 8080
